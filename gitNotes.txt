@@ -1,0 +1,16 @@
+Repository : A place where code is kept.
+git : opensource version control system
+github : 
+
+
+git commands : 
+ 1. Clone : Bring a remote Repository to a local machine.
+ 2. add : adds files to git to track changes to files.
+ 3. commit : save your files in git.
+ 4. push : upload git commits to a remote Repository.
+ 5. pull : Download changes from remote Repository to local Repository.
+ 6. status : status of files (updated , deleted, created).
+
+ Notes : 
+    1. Repository : basically a project.
+    2. .git folder : stores all the changes in files.
