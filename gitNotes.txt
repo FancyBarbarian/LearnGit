@@ -16,7 +16,7 @@ git commands :
             git remote add origin <repo-url>
  9. checkout : used to create and swith between branches.
                 -b : this option tells git to create a new branch.
-                
+ 10. diff : shows difference in branch specified and current branch                
 
 
 Command to generate ssh key : ssh-keygen -t rsa -b 4096 -C "manutripathiyoyo200@gmail.com" (comes with git)
