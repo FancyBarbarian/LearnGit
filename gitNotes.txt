@@ -12,10 +12,24 @@ git commands :
  6. status : status of files (updated , deleted, created). 
  7. commit : commits the changes to git.
                 -m : message option
+ 8. remote : adds reference to a remote repository.
+            git remote add origin <repo-url>
+ 9. checkout : used to create and swith between branches.
+                -b : this option tells git to create a new branch.
+                
+
 
 Command to generate ssh key : ssh-keygen -t rsa -b 4096 -C "manutripathiyoyo200@gmail.com" (comes with git)
 Add public key to github : github -> setting -> gpg public key -> add keys
+to add key to git : Gitinstallation-> etc -> ssh -> config -> add below text. 
+                    text : 
+                        Host *
+                            AddKeysToAgent yes
+                            UseKeychain yes
+                            IdentityFile D:\GitLearn\keys
 
+git command to push to a new empty repository
+    git push --repo=https://github.com/FancyBarbarian/LearnGit.git
 
  Notes : 
     1. Repository : basically a project.
