@@ -17,7 +17,14 @@ git commands :
  9. checkout : used to create and swith between branches.
                 -b : this option tells git to create a new branch.
  10. diff : shows difference in branch specified and current branch                
-
+ 11. branch : 
+            -a : show all the branches.
+            -d : deletes a branch specified.
+ 12. reset : lets you unstage a file. and commit.
+                . git reset HEAD~1 : Makes git go back to 1 commit before.
+                . git reset <unique identifier from log>
+                . --hard : not only unstages the changes but rollbacks them in current file too.
+ 13. log : shows commit history with all their unique identifiers
 
 Command to generate ssh key : ssh-keygen -t rsa -b 4096 -C "manutripathiyoyo200@gmail.com" (comes with git)
 Add public key to github : github -> setting -> gpg public key -> add keys
