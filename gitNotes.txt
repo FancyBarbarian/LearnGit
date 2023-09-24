@@ -26,7 +26,7 @@ git commands :
                 . --hard : not only unstages the changes but rollbacks them in current file too.
  13. log : shows commit history with all their unique identifiers
 
-Command to generate ssh key : ssh-keygen -t rsa -b 4096 -C "manutripathiyoyo200@gmail.com" (comes with git)
+Command to generate ssh key : ssh-keygen -t rsa -b 4096 -C "manutripathiyoyo200@gmail.com" (comes with openssh)
 Add public key to github : github -> setting -> gpg public key -> add keys
 to add key to git : Gitinstallation-> etc -> ssh -> config -> add below text. 
                     text : 
