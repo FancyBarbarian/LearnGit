@@ -34,6 +34,14 @@ to add key to git : Gitinstallation-> etc -> ssh -> config -> add below text.
                             AddKeysToAgent yes
                             UseKeychain yes
                             IdentityFile D:\GitLearn\keys
+			
+			or
+
+			Host github.com
+			    Hostname ssh.github.com
+			    Port 443
+			    AddKeysToAgent yes
+			    IdentityFile D:\Shared\keys\gitkey
 
 git command to push to a new empty repository
     git push --repo=https://github.com/FancyBarbarian/LearnGit.git
